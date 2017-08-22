@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Video Popup JS - Basic Video</title>
+        <link rel="stylesheet" href="../src/video.popup.css">
+        <style>
+            body{
+                text-align: center;
+                font-family: 'Arial';
+                font-size:19px;
+            }
+        </style>
+    </head>
+    <body>
+        <a id="video" video-url="https://www.youtube.com/watch?v=0wCC3aLXdOw">
+            Open Popup
+        </a>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="../src/video.popup.js"></script>
+
+        <script>
+            $(function(){
+                $("#video").videoPopup();
+            });
+        </script>
+    </body>
+</html>
