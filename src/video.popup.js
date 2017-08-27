@@ -101,10 +101,10 @@
                 $('.videopopupjs__content').css('max-width', settings.width);
             }
 
-            if( $('.videopopupjs').hasClass('videopopupjs--animation') ){
+            if($('.videopopupjs').hasClass('videopopupjs--animation')){
                 setTimeout(function() {
                     $('.videopopupjs').removeClass("videopopupjs--animation");
-                }, 600);
+                }, 200);
             }
 
             $(".videopopupjs, .videopopupjs__close").click(function(){

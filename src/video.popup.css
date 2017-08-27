@@ -22,13 +22,11 @@
     animation-name: videoPopupJsHide;
 }
 .videopopupjs__close{
-    position:relative;
     width:30px;
     height:30px;
     cursor:pointer;
-    left:96.7%;
-    top: 190px;
     display:block;
+    margin-bottom:10px;
     color:rgba(255, 255, 255, 0.59);
 }
 .videopopupjs__close:after{
@@ -56,18 +54,15 @@
     animation-name: videoPopupJs;
 }
 .videopopupjs__content{
-    display:block;
     margin:0 auto;
     height:100%;
-    position:relative;
+    height:500px;
+    width:100%;
+    margin-top:5%;
 }
 .videopopupjs__content iframe{
-    width:100% !important;
-    position:absolute;
-    top: 0;
-    height:500px;
-    bottom: 0;
-    margin: auto 0;
+    width:100%;
+    height:100%;
 }
 .videopopupjs__block--notfound{
     position:absolute;
